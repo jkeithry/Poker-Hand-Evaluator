@@ -61,11 +61,13 @@ public class AssignmentOneF17xx1{
 							threes += 1;
 						}
 						
+						//finds our of a kind
 						if(match == 3){
 							System.out.println("four of a kind");
 							break;
 						}
 						
+						//finds full house
 						if(twos == 2 && threes == 3){
 							System.out.println("full house");										
 						}							
@@ -76,7 +78,7 @@ public class AssignmentOneF17xx1{
 					
 					}//End of first for loop
 					
-					//check for pairs and three of a kind
+					//check for pairs and three of a kind. No longer checking for "match" variable. If one pair is found and three of a kind is not found console prints "pair."
 					if(twos >= 1 && threes < 3){
 							System.out.println("pair");
 						}
