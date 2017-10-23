@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AssignmentOneF17xx1{
+public class AssignmentOneF17{
 		
 	public static void main(String[] args){
 		//Decalare Variables		
